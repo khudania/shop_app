@@ -5,7 +5,7 @@ let _db;
 
 const mongoConnect = callback => {
   MongoClient.connect(
-    'mongodb+srv://hkhudania:BackXXrPLFQBqKuL@cluster0-8qn4t.mongodb.net/shop?retryWrites=true'
+    'mongodb+srv://hkhudania:zbgSCyYOdShEgy5W@cluster0-8qn4t.mongodb.net/shop?retryWrites=true'
   )
     .then(client => {
       console.log('Connected!');
